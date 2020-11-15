@@ -1,0 +1,42 @@
+body {
+    margin: 20;
+    padding: 15;
+    background-image: url(C:\Users\amand\Desktop\city.jpg) no-repeat;
+    background-image: url(c:\Users\amand\Desktop\newyork.jpg);
+    background-size: 50%;
+}
+
+h1 {
+    margin: center;
+}
+
+.box {
+    width: 100px;
+    background: rgba(145, 3, 3, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    .box (text-align: justify);
+}
