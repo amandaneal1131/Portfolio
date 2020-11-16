@@ -1,42 +1,93 @@
+@@ -1,111 +1,111 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+#nav-mobile {
+  background-color: black;
+}
+p {
+  line-height: 2rem;
+}
+.sidenav-trigger {
+  color: white;
+}
+.sidenav li a {
+  color: white;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
+#title-logo {
+  margin-top: 90px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 2px 2px 4px #000000;
+}
+#about-me-heading, #skills-connect-resume {
+  text-shadow: 2px 2px 4px #000000;
+}
+.header {
+  margin-bottom: 42px;
+}
+.btn {
+  background-color: black;
+}
+.btn:hover {
+  background-color: #717786;
+}
 body {
-    margin: 20;
-    padding: 15;
-    background-image: url(C:\Users\amand\Desktop\city.jpg) no-repeat;
-    background-image: url(c:\Users\amand\Desktop\newyork.jpg);
-    background-size: 50%;
+  background-color: black;
+}
+.page-footer {
+  background-color: black;
+}
+h5 {
+  font-weight: bold;
+}
+/* .card.hoverable {
+  box-shadow: 0 2px 2px 0 whitesmoke, 0 3px 1px -2px whitesmoke, 0 1px 5px 0 whitesmoke;
+} */
+.card.hoverable:hover {
+  box-shadow: 2px 4px 5px 0 whitesmoke, 2px 5px 3px -3px whitesmoke, 2px 5px 10px 0 whitesmoke;
 }
 
-h1 {
-    margin: center;
-}
-
-.box {
-    width: 100px;
-    background: rgba(145, 3, 3, 0.4);
-    padding: 40px;
-    text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    color: rgba(0, 0, 0, 0.4);
-    font-family: 'Century Gothic', sans-serif;
-}
-
-.box-img {
-    border-radius: 10%;
-    width: 100px;
-    height: 100px;
-}
-
-.box h1 {
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-}
-
-.box h3 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-    .box (text-align: justify);
-}
+.fa-github, .fa-linkedin {
+.fa-github, .fa-linkedin, .fa-envelope, .fa-mobile-alt, .fa-file-download {
+  color: white;
+} 
